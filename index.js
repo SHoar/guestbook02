@@ -2,6 +2,8 @@ var express = require('express')
 var hbs = require('express-handlebars')
 var logger = require('morgan')
 var mongoose = require('mongoose')
+var MONGODB_URI = 'mongodb://heroku_6v1crplr:q2ida9g7bpcmb3dm7vpeoeb5nr@ds147167.mlab.com:47167/heroku_6v1crplr'
+var db = mongoose.connect(MONGODB_URI)
 
 var app = express()
 
