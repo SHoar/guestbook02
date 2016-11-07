@@ -1,1 +1,20 @@
 <h1>Guestbook</h1>
+           <div class="comments">
+           <form id="form">
+                <input type="text" name="newComment" value="">
+                <button type="button" name="button">Submit</button>
+            </form>
+            <div class="comments-template">
+            </div>
+        </div>
+
+        <script id="comments-template" type="text/x-handlebars-template">
+            <ul id="comment-list">
+                {{#each comments}}
+                  <li class="comment-list-item">{{this}}</li>
+                {{/each}}
+            </ul>
+        </script>
+
+    </body>
+</html>
