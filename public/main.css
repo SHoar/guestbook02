@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 
-.c-gallery__item {
+.c-gallery-item {
   list-style: none;
   height: 300px;
   min-width: 1000px;
@@ -27,12 +27,12 @@
   padding: 0;
 }
 
-.c-nav-list__item {
+.c-nav-list-item {
   display: inline-block;
   font-size: 3rem;
 }
 
-.c-nav-list__item a {
+.c-nav-list-item a {
   text-decoration: none;
   color: #333;
   padding: 1rem 2rem;
